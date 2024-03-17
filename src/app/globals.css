@@ -16,11 +16,20 @@
   }
 }
 
+body{
+  background-color: #081b29;
+}
+
+
 /* Styles for the container div */
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 /* Styles for the heading */
